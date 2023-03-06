@@ -1,0 +1,27 @@
+package com.company;
+
+public class TiposDeDatos {
+
+    public static void main(String[] args) {
+
+        // Tipos de datos primitivos
+        byte byteVar = 127;
+        short shortVar = 32767;
+        int intVar = 2147483647;
+        long longVar = 9223372036854775807L;
+        float floatVar = 3.14159265359F;
+        double doubleVar = 3.141592653589793238;
+        boolean booleanVar = true;
+        char charVar = 'A';
+
+        // Imprimir los valores de cada tipo de dato
+        System.out.println("Valor de byte: " + byteVar);
+        System.out.println("Valor de short: " + shortVar);
+        System.out.println("Valor de int: " + intVar);
+        System.out.println("Valor de long: " + longVar);
+        System.out.println("Valor de float: " + floatVar);
+        System.out.println("Valor de double: " + doubleVar);
+        System.out.println("Valor de boolean: " + booleanVar);
+        System.out.println("Valor de char: " + charVar);
+    }
+}
